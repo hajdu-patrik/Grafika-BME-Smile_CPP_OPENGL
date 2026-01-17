@@ -6,7 +6,7 @@
 ![LodePNG](https://img.shields.io/badge/Library-lodepng-lightgrey?style=flat)
 ![Course](https://img.shields.io/badge/Course-BME--IIT_Graphics-green?style=flat)
 
-# BME Graphics Lab: 2D Texture & Transformation Demo
+# Smile Demo Application
 
 This project is a C++ OpenGL application developed for the BME-IIT Computer Graphics course. It demonstrates the integration of **2D texture mapping** with geometric primitive rendering and real-time **affine transformations**.
 
