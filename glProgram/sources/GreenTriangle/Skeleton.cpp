@@ -95,7 +95,7 @@ void CreateMouth(Geometry<vec2>& vertices, int& mouthStart, int& mouthCount) {
 }
 
 // --- APPLICATION ---
-class SmileTestApp : public glApp {
+class SmileDemoApp : public glApp {
 	GPUProgram* gpuProgram = nullptr;
 	Geometry<vec2>* vertices = nullptr; 
 	Geometry<vec2>* background = nullptr;
@@ -113,7 +113,7 @@ class SmileTestApp : public glApp {
 	bool transToggle = true, scaleToggle = true;
 
 public:
-	SmileTestApp() : glApp("Smile Test App") {}
+	SmileDemoApp() : glApp("Smile Demo App") {}
 
 	void onInitialization() {
 		gpuProgram = new GPUProgram();
@@ -229,7 +229,7 @@ public:
 		refreshScreen();
 	}
 
-	~SmileTestApp() {
+	~SmileDemoApp() {
 		if(!gpuProgram) delete gpuProgram;
 		if(!vertices) delete vertices;
 		if (!background) delete background;
@@ -237,4 +237,4 @@ public:
 	}
 };
 
-SmileTestApp app;
+SmileDemoApp app;
