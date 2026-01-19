@@ -156,7 +156,8 @@ public:
 		gpuProgram->Use();	// Activating shaders
 
 		// --- Draw backgorund ---
-		gpuProgram->setUniform(M, "MVP");
+		mat4 identityMVP = mat4(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); // To avoid texture transformation
+		gpuProgram->setUniform(identityMVP, "MVP");
 		gpuProgram->setUniform(1, "useTexture");
 		gpuProgram->setUniform(0, "samplerUnit");
 
