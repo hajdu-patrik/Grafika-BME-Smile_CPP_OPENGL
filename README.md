@@ -71,3 +71,11 @@ The application integrates lodepng.cpp  to handle raw image decoding. The pixel 
 
 ### 3. Geometry Generation
 The "Smiley" head is generated procedurally using the equation of a circle: $x = r \cdot \cos(\phi), \quad y = r \cdot \sin(\phi)$. It uses `GL_TRIANGLE_FAN` for the solid yellow fill and `GL_LINE_STRIP` for the black outline.
+
+---
+
+## 📦 Releases
+
+| Version | Description | Download |
+| :--- | :--- | :--- |
+| **v1.0.0** | **Smile Demo v1.0.0** - Initial release of the OpenGL assignment. Contains the compiled application logic, shader resources, and the background texture (`bg.png`). | [Smile.Demo.Application.v1.0.0.zip](https://github.com/hajdu-patrik/Grafika-BME-Smile_CPP_OPENGL/releases/download/v1.0.0/Smile.Demo.Application.v1.0.0.zip) <br> [Source code (zip)](https://github.com/hajdu-patrik/Grafika-BME-Smile_CPP_OPENGL/archive/refs/tags/v1.0.0.zip) |
